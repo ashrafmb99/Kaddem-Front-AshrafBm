@@ -12,7 +12,6 @@
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
-          "host": "0.0.0.0",
           "options": {
             "outputPath": "dist/kaddemashrafbm",
             "index": "src/index.html",
