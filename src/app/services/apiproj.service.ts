@@ -10,19 +10,19 @@ export class ApiprojService {
 
   postProject(data : any) {
 
-    return this.http.post<any>("http://localhost:8091/Kaddem/contrat/add-contrat/", data);
+    return this.http.post<any>("http://192.168.2.172:8091/Kaddem/contrat/add-contrat/", data);
   }
 
   getProject() {
 
 
-    return this.http.get<any>("http://localhost:8091/Kaddem/contrat/retrieve-all-contrats/");
+    return this.http.get<any>("http://192.168.2.172:8091/Kaddem/contrat/retrieve-all-contrats/");
   }
 
   
 
   putProject(data: any ) {
-   return this.http.put<any>("http://localhost:8091/Kaddem/contrat/update-contrat/",data);
+   return this.http.put<any>("http://192.168.2.172:8091/Kaddem/contrat/update-contrat/",data);
   }
 
 
